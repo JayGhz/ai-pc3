@@ -6,7 +6,7 @@ import os
 
 NAO_IP = "127.0.0.1"
 PORT = 54013
-SERVER_URL = "http://192.168.18.6:5000/emocion"
+SERVER_URL = "http://127.20.10.2:5000/emocion"
 SENAL_PATH = "nueva_emocion.txt"
 
 tts = ALProxy("ALTextToSpeech", NAO_IP, PORT)
